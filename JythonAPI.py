@@ -19,9 +19,9 @@ import com.hyperion.aif.scripting.API as API
 fdmAPI = API()
 conn = None
 #if (pEnvName == "slc03zpg_epm"):
-#conn = sql.DriverManager.getConnection("jdbc:oracle:thin:@slc02oxk:1521:fdm11gR2", "PS3SLC03GFCERPI", "Hyperion1")
-#conn = sql.DriverManager.getConnection("jdbc:oracle:thin:@slc03hhe:1521:orcl", "slc03zpg_epm", "oracle1");
-#conn = sql.DriverManager.getConnection("jdbc:oracle:thin:@slc04ysn.us.oracle.com:1521/PDBORCL.US.ORACLE.COM", "joe", "password")
+#conn = sql.DriverManager.getConnection("jdbc:oracle:thin:@slc02oxk:1521:fdm11gR2", "PS3SLC03GFCERPI", "xx")
+#conn = sql.DriverManager.getConnection("jdbc:oracle:thin:@slc03hhe:1521:orcl", "slc03zpg_epm", "xx");
+#conn = sql.DriverManager.getConnection("jdbc:oracle:thin:@slc04ysn.us.oracle.com:1521/PDBORCL.US.ORACLE.COM", "joe", "xx")
 
 #conn.setAutoCommit(False)
 #fdmAPI.initializeDevMode(conn)
