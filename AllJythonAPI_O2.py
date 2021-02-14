@@ -22,7 +22,7 @@ import com.hyperion.aif.scripting.API as API
 # set the conection string and PID here 
 conexn1 = "jdbc:oracle:thin:@slc06qnj:1521:orcl"
 c2 = "PS4SLC09CVVFDMEE"
-c3 = "Hyperion1"
+c3 = "xx"
 RunID = 3609 
 fdmAPI = API()
 conn = None
