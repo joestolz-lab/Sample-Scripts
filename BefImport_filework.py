@@ -26,7 +26,7 @@ if str(fdmContext["LOCNAME"]) == 'ANSTAT4_LOC98':
     ,4
   ) 
   """
-  sourceConn = sql.DriverManager.getConnection("jdbc:oracle:thin:@slc02oxk:1521:fdm11gR2", "KFtest", "password");
+  sourceConn = sql.DriverManager.getConnection("jdbc:oracle:thin:@slc02oxk:1521:fdm11gR2", "KFtest", "xx");
   # Limiting number of rows to 5 during the test runs.
   selectStmt = "SELECT * FROM orders"
   stmt = sourceConn.prepareStatement(selectStmt)
